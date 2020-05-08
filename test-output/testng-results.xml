@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sample test Suite" duration-ms="33685" started-at="2020-05-07T22:05:00Z" finished-at="2020-05-07T22:05:34Z">
+    <groups>
+    </groups>
+    <test name="Sample test" duration-ms="33685" started-at="2020-05-07T22:05:00Z" finished-at="2020-05-07T22:05:34Z">
+      <class name="com.training.sanity.tests.LoginTests">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.LoginTests@6767c1fc]" name="setUpBeforeClass" is-config="true" duration-ms="10245" started-at="2020-05-07T18:05:00Z" finished-at="2020-05-07T18:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.LoginTests@6767c1fc]" name="validLoginTest" duration-ms="10057" started-at="2020-05-07T18:05:11Z" finished-at="2020-05-07T18:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="accountUpdate()[pri:1, instance:com.training.sanity.tests.LoginTests@6767c1fc]" name="accountUpdate" duration-ms="7348" started-at="2020-05-07T18:05:21Z" finished-at="2020-05-07T18:05:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountUpdate -->
+        <test-method status="PASS" signature="pwdreset()[pri:2, instance:com.training.sanity.tests.LoginTests@6767c1fc]" name="pwdreset" duration-ms="4676" started-at="2020-05-07T18:05:28Z" finished-at="2020-05-07T18:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pwdreset -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.LoginTests@6767c1fc]" name="tearDown" is-config="true" duration-ms="1317" started-at="2020-05-07T18:05:33Z" finished-at="2020-05-07T18:05:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.LoginTests -->
+    </test> <!-- Sample test -->
+  </suite> <!-- Sample test Suite -->
+</testng-results>
